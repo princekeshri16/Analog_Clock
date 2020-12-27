@@ -1,0 +1,39 @@
+#clockCase{
+    width:40vw;
+    height:40vw;
+    display:block;
+    position: relative;
+    background: url("clockCase.png") no-repeat;
+    margin:auto;
+    background-size: 100%;
+}
+#Hhand,#Mhand,#Shand
+{
+    position: absolute;
+    display: block;
+    background-color: black;
+    border-radius: 50%;
+    opacity:0.8;
+    transform-origin: bottom; 
+}
+#Hhand
+{
+    height: 25%;
+    width: 1.8%;
+    top: 25%;
+    left: 49.1%;
+}
+#Mhand
+{
+    width: 1.6%;
+    height: 30%;
+    left: 49.2%;
+    top: 20%;
+}
+#Shand
+{
+    height: 42%;
+    width: 1.2%;
+    top: 8%;
+    left: 49.35%;
+}
